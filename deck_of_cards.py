@@ -44,15 +44,3 @@ class Deck:
 	def deal_hand(self, hand_size):
 		hand = self._deal(hand_size)
 		return hand
-
-
-# first_deck = Deck()
-# print(first_deck)
-# first_deck.shuffle()
-# # print(first_deck.deal_card())
-# for i in first_deck.deal_hand(21): 
-# 	print(i)
-# print(first_deck)
-
-
-
